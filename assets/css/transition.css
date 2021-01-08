@@ -1,0 +1,25 @@
+/* 页面过渡动画 */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0.5;
+}
+
+/* 个别页面过渡动画设置 */
+/* 需要在页面配置:transition: 'single'启用 */
+.single-enter-active,
+.single-leave-active {
+  transition: opacity 0.5s;
+}
+.single-enter,
+.single-leave-active {
+  opacity: 0.5;
+}
+::-webkit-scrollbar {
+  display: none !important;
+  width: 0px;
+  height: 0px;
+}

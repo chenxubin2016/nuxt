@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-learning",
+  "version": "1.0.0",
+  "description": "My stylish Nuxt.js project",
+  "author": "陈旭斌",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.4",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "autoprefixer": "^10.1.0",
+    "cookie-universal-nuxt": "^2.1.4",
+    "cross-env": "^5.2.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.0.0",
+    "postcss": "^8.2.1",
+    "postcss-px2rem": "^0.3.0",
+    "sass-loader": "^10.1.0",
+    "svg-sprite-loader": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
